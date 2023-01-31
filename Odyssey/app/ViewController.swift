@@ -94,8 +94,8 @@ class ViewController: UIViewController, ElectraUI {
         }
         
         if isJailbroken() {
-            jailbreakButton?.isEnabled = false
-            formatter.valueIndicator = "Jailbroken"
+            jailbreakButton?.isEnabled = true
+            formatter.valueIndicator = "dualra1n:)"
         }
         
         progressRing.valueFormatter = formatter
